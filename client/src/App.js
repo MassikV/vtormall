@@ -20,60 +20,60 @@ import ProtectedRouteAdmin from './pages/Admin/ProtectedRouteAdmin';
 import Loader from './components/Loader';
 
 function App() {
-  const { isLoading } = useAuth0();
-  if (isLoading === true) {
-    return <Loader />;
-  }
-  return (
-    <ScrollWrapper>
-      <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/products/:id" element={<ProductPage />} />
-          <Route
-            path="/profile"
-            element={
-              <ProtectedRoute>
-                <ProfilePage />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/profile/userInfo"
-            element={
-              <ProtectedRoute>
-                <UserInfo />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/create"
-            element={
-              <ProtectedRoute>
-                <CreateProductPage />
-              </ProtectedRoute>
-            }
-          />
-          <Route path="/products/:id/edit" element={<EditProductPage />} />
-          <Route path="/successfully" element={<SuccessForm />} />
-          <Route
-            path="/admin"
-            element={
-              <ProtectedRouteAdmin>
-                <Admin />
-              </ProtectedRouteAdmin>
-            }
-          />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/contacts" element={<Contacts />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        </Routes>
-      </main>
-      <Footer />
-    </ScrollWrapper>
-  );
+    const { isLoading } = useAuth0();
+    if (isLoading === true) {
+        return <Loader />;
+    }
+    return (
+        <ScrollWrapper>
+            <Header />
+            <main>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/products" element={<Products />} />
+                    <Route path="/products/:id" element={<ProductPage />} />
+                    <Route
+                        path="/profile"
+                        element={
+                            <ProtectedRoute>
+                                <ProfilePage />
+                            </ProtectedRoute>
+                        }
+                    />
+                    <Route
+                        path="/profile/userInfo"
+                        element={
+                            <ProtectedRoute>
+                                <UserInfo />
+                            </ProtectedRoute>
+                        }
+                    />
+                    <Route
+                        path="/create"
+                        element={
+                            <ProtectedRoute>
+                                <CreateProductPage />
+                            </ProtectedRoute>
+                        }
+                    />
+                    <Route path="/products/:id/edit" element={<EditProductPage />} />
+                    <Route path="/successfully" element={<SuccessForm />} />
+                    <Route
+                        path="/admin"
+                        element={
+                            <ProtectedRouteAdmin>
+                                <Admin />
+                            </ProtectedRouteAdmin>
+                        }
+                    />
+                    <Route path="/about" element={<AboutUs />} />
+                    <Route path="/contacts" element={<Contacts />} />
+                    <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                </Routes>
+            </main>
+            <Footer />
+        </ScrollWrapper>
+    );
 }
 
 export default App;
