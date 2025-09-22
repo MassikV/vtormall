@@ -1,0 +1,20 @@
+.root {
+  width: 250px;
+  height: 250px;
+  margin: 50px auto;
+}
+.loader-wrap {
+  width: 250px;
+  height: 250px;
+}
+.logo-arrow {
+  animation: breathe .5s ease alternate infinite;
+}
+@keyframes breathe {
+  90% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
