@@ -1,0 +1,14 @@
+image: node:18
+
+pages:
+  stage: deploy
+  script:
+    - cd client
+    - npm install
+    - CI=false npm run build
+    - mv build ../public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
