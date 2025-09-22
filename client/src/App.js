@@ -29,7 +29,7 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/vtormall/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/products/:id" element={<ProductPage />} />
           <Route
