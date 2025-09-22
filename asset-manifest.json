@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/vtormall/static/css/main.10222422.css",
-    "main.js": "/vtormall/static/js/main.201a4f7f.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/vtormall/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/logo.png": "/vtormall/static/media/logo.d024dd2dd62a3183c14b.png",
-    "static/media/emptyImage.png": "/vtormall/static/media/emptyImage.a42d0c11755ad88e4231.png",
-    "index.html": "/vtormall/index.html",
-    "main.10222422.css.map": "/vtormall/static/css/main.10222422.css.map",
-    "main.201a4f7f.js.map": "/vtormall/static/js/main.201a4f7f.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/vtormall/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/static/css/main.10222422.css",
+    "main.js": "/static/js/main.c7da508d.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/logo.png": "/static/media/logo.d024dd2dd62a3183c14b.png",
+    "static/media/emptyImage.png": "/static/media/emptyImage.a42d0c11755ad88e4231.png",
+    "index.html": "/index.html",
+    "main.10222422.css.map": "/static/css/main.10222422.css.map",
+    "main.c7da508d.js.map": "/static/js/main.c7da508d.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10222422.css",
-    "static/js/main.201a4f7f.js"
+    "static/js/main.c7da508d.js"
   ]
 }
